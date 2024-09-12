@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Recipes Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="site-heading text-center text-faded">
+            <span class="site-heading-upper text-primary mb-3">Discover Your Perfect Brew</span>
+            <span class="site-heading-lower">Coffee Recipes</span>
+        </h1>
+    </header>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-lg-4">
+        <div class="container">
+            <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Coffee Recipes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Home</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about.html">About</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="recipes.html">Recipes</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-text text-center">
+                    <h2>Explore Our Coffee Recipes</h2>
+                    <p>From classic espressos to unique concoctions, find your perfect brew.</p>
+                </div>
+            </div>
+        </section>
+        <section class="recipe-list">
+            <div class="container">
+                <h2>Our Recipes</h2>
+                <ul class="list-unstyled">
+                    <li><a href="recipes/masapan_capuchino.html" class="btn btn-dark mb-2">Masapan Capuchino</a></li>
+                    <li><a href="recipes/red_eye.html" class="btn btn-dark mb-2">Red Eye</a></li>
+                    <!-- Add more recipes as needed -->
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer text-center py-5">
+        <div class="container">
+            <p class="m-0 small">&copy; 2024 Coffee Recipes. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
